@@ -1,7 +1,15 @@
-> A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
+# CARS_SHOWROOM_DX
 
+## Lab: DjangoX
 
-https://github.com/wsvincent/djangox/assets/766418/a73ea730-a7b4-4e53-bf51-aa68f6816d6a
+## Project: django-snacks
+## Author: ***Rakan M. Al-Madani***
+
+### Port:
+http://127.0.0.1:8000/ PORT - Port Number
+
+### How to initialize/run your application (where applicable)
+ python3 manage.py startapp
 
 
 
