@@ -1,0 +1,13 @@
+{% extends '_base.html' %}
+
+{% block title %}Showroom{% endblock title %}
+
+{% block content %}
+
+<h2>Car: {{ showroom.manafactor }}</h2>
+<h2>Purchaser: {{ showroom.purchaser.username }}</h2>
+<p>{{ cars.desc }}</p>
+<a href="{% url 'update_car' showroom.pk %}">+ Update car</a>
+<a href="{% url 'delete_car' showroom.pk %}">+ Delete car</a>
+
+{% endblock content %}
