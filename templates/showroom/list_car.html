@@ -1,0 +1,17 @@
+{% extends '_base.html' %}
+
+{% block title %}Cars{% endblock title %}
+
+{% block content %}
+
+<a href="{% url 'add_car' %}">+ Add a car</a>
+<ul>
+    {% for showroom in object_list %}
+    <li>
+        <a href="{% url 'detail_car' showroom.pk %}">{{ showroom.manafactor }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+
+{% endblock content %}
